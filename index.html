@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Blog</h1>
+    </header>
+    <nav><a href="index.html">Home</a> | <a href="blog.html">Blog</a></nav>
+    <article class="home-stuff">
+      <section>
+        <img
+          class="author-pic"
+          src="https://i.imgur.com/xW90aYM.jpg"
+          alt="Author Picture"
+        />
+      </section>
+      <section>
+        <form id="blogForm" class="form-stuff">
+          <label for="Username">Username:</label>
+          <input type="text" id="Username" name="Username" required />
+
+          <label for="Title">Title:</label>
+          <input type="text" id="Title" name="Title" required />
+
+          <label for="Content">Content:</label>
+          <textarea id="Content" name="Content" required></textarea>
+
+          <button type="button" id="submit-button">Submit</button>
+        </form>
+      </section>
+    </article>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>
